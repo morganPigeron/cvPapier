@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&family=Urbanist:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  display: flex;
+}
+
+.a4 {
+  width: 210mm;
+  height: 297mm;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Urbanist';
+  font-size: 2em;
+  margin: auto 0;
+}
+h2 {
+  font-family: 'Urbanist';
+  font-style: italic;
+  margin: 0.2rem 0;
+  ;
+}
+h3 {
+  font-family: 'Urbanist';
+  margin: 0.2rem 0;
+}
+h4 {
+  font-family: 'Urbanist';
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
+h5 {
+  font-family: 'Urbanist';
+  margin: 0.2rem 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.indent {
+  text-indent: 0.5em;
+}
+.vr {
+  min-width: 1px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.work {
+  font-weight: 700;
+  font-style: italic;
+  font-family: 'Urbanist';
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+}
+
+.info {
+  font-size: 0.8rem;
+  text-align: left;
+  margin: auto 0;
+  padding: 0.5rem;
+}
+
+.adress {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+}
+
+.xp {
+  padding: 0 0.4rem;
+}
+
+.education { 
+  padding: 0 0.4rem;
+}
+
+.datedTitle {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  justify-content: space-between;
+}
+
+.diploma {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.date {
+  font-weight: 700;
+  font-style: italic;
+  font-family: 'Urbanist';
+}
+
+
+.footer {
+  
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-size: 0.8rem;
+}
+
