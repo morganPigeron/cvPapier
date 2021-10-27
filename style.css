@@ -4,6 +4,10 @@ body {
   display: flex;
 }
 
+p {
+  margin: 0.2rem 0.2rem;
+}
+
 .a4 {
   width: 210mm;
   height: 297mm;
@@ -53,7 +57,7 @@ hr {
 .header {
   display: flex;
   justify-content: space-around;
-  margin: 1rem;
+  margin: 0.2rem;
 }
 
 .mainTitle {
@@ -112,11 +116,6 @@ hr {
   font-weight: 700;
   font-style: italic;
   font-family: 'Urbanist';
-}
-
-
-.footer {
-  
 }
 
 .text {
